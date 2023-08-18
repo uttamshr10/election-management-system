@@ -16,9 +16,15 @@ con = DriverManager.getConnection(url);
 System.out.println("connection obtained");
 }
 
-public Connection getConnection() {
-	return con;
+// Before connecting database, comment this after connection.
+public static void main(String[] args) throws ClassNotFoundException, SQLException{
+	new Database();
 }
+
+// After database is connected uncomment this 
+// public Connection getConnection() {
+// 	return con;
+// }
 
 
 }

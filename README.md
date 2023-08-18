@@ -1,5 +1,5 @@
 # Election Management System (EMS)
-EMS is a comprehensive software solution developed using Java Swing. Its primary objective is to streamline the electoral process, ensuring transparency, efficiency and accuracy in managing elections. 
+EMS is a comprehensive software solution developed using Java Swing. Its primary objective is to streamline the electoral process, ensuring transparency, efficiency and accuracy in managing elections. It fulfils CRUD operation.
 The EMS provides different forms for administrators, voters and winner declaration.
 
 ## Prerequisites
@@ -45,7 +45,7 @@ https://git@github.com/uttamshr10/election-management-system.git
    ```
    - Run `Database.java` to establish connection between SSMS and Eclipse.
 
-3. ** Table Setup: **
+3. **Table Setup:**
 
   - After configuration of Database and JDBC, run `CreateTable.java` which will create four tables required for our system.
   - For Admin authentication and authorization, locate the `InsertData.java` file.
@@ -64,6 +64,70 @@ https://git@github.com/uttamshr10/election-management-system.git
 
 5. Duplicate votes are filtered out earlier by not letting the user vote twice.
 
+
+<p align="center"><b>Home Page</b></p>
+
+![Alt text](/images/HomePage.png)
+
+<p align="center"><b>Login Form</b></p>
+
+![Alt text](/images/Login.png)
+
+<p align="center"><b>Authenticated Form</b></p>
+
+![Alt text](/images/AuthenticatedForm.png)
+
+<p align="center"><b>Candidate Registration</b></p>
+
+![Alt text](/images/CandidateRegistrationForm.png)
+
+<p align="center"><b>User Registration</b></p>
+
+![Alt text](/images/UserRegistrationForm.png)
+
+<p align="center"><b>Update Candidate</b></p>
+
+![Alt text](/images/UpdateCandidateForm.png)
+
+<p align="center"><b>Update User</b></p>
+
+![Alt text](/images/UpdateUserForm.png)
+
+<p align="center"><b>Admin Guidelines</b></p>
+
+![Alt text](/images/AdminGuidelinesForm.png)
+
+<p align="center"><b>Remove Candidate</b></p>
+
+![Alt text](/images/RemoveCandidateForm.png)
+
+<p align="center"><b>User Form</b></p>
+
+![Alt text](/images/UserForm.png)
+
+<p align="center"><b>User Guidelines</b></p>
+
+![Alt text](/images/UserGuidelinesForm.png)
+
+<p align="center"><b>Citizenship Checker (validation)</b></p>
+
+![Alt text](/images/CitizenshipCheckerForm.png)
+
+<p align="center"><b>Vote Now</b></p>
+
+![Alt text](/images/ListCandidateForm.png)
+
+
+<p align="center"><b>Winner Form</b></p>
+
+![Alt text](/images/WinnerForm.png)
+
+
+
+
+## Future Updates
+
+- We are working towards launching the web version of the Election Management System. We will update it shortly.
 
 # Authors
 ## Uttam Shrestha

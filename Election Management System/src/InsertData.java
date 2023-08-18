@@ -12,7 +12,7 @@ public class InsertData {
 		db = new Database();
 		con = db.getConnection();
 		st = con.createStatement();
-		// Change this...
+		// Change this for administrator login...
 		String insert = "INSERT INTO Login_tbl Values('Uttam', 'Admin@10')";
 		st.executeUpdate(insert);
 		System.out.println("Data inserted successfully.");
